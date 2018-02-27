@@ -1,8 +1,8 @@
-#:fire: functional-exercises:fire:
+# functional-exercises :fire:
 I will post some of my exercises to manipulate array's.
 
 ## Objectives
-I will try to learn a bit more of functional programming.
+I will try to learn a bit more of functional programming.  
 First I'll start with looping examples. After that I will try to re-write it using the _higher order functions_
 
 ## Higher order functions.
