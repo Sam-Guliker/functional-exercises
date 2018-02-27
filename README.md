@@ -6,7 +6,7 @@ I will try to learn a bit more of functional programming.
 First I'll start with looping examples. After that I will try to re-write it using the _higher order functions_
 
 ## Higher order functions.
-Higher order functions are functions in functions. This is usefull
+Higher order functions are functions in functions. This is usefull  
 to composite functions. For example you can make smaller functions in a bigger function.
 :clap::clap:
 
