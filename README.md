@@ -1,5 +1,6 @@
 # functional-exercises :fire:
 I will post some of my exercises to manipulate array's.
+`This` is thanks to [Mpj](https://github.com/mpj)
 
 ## Objectives
 I will try to learn a bit more of functional programming.  
@@ -55,4 +56,28 @@ It's the :crown: of manipulating arrays and data.
 var totalAmount = orders.reduce(function(sum, order){
     return sum + orders.amount
 }, 0)
+```
+### Another Reduce example
+this example is made with some ES6. Yes I know I can use const etc.  
+I just want to play around with the arrow functions.
+```Javascript
+var fs = require('fs')
+/* Using higher order functions */
+var output = fs.readFileSync('data.txt', 'utf8')
+
+    // Trime removes the last space
+    .trim()
+    // line break
+    .split('\n')
+    // split the lines on tab characters
+    .map(line => line.split('\t'))
+    .reduce((costumers, line)=> {
+        costumers[line[0]] =  costumers[line[0]] || []
+        costumers[line[0]].push({
+            name:line[1],
+            price: line[2],
+            quantity: line[3]
+        })
+        return costumers
+    }, {})
 ```
