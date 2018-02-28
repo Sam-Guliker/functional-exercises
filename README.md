@@ -65,7 +65,7 @@ var fs = require('fs')
 /* Using higher order functions */
 var output = fs.readFileSync('data.txt', 'utf8')
 
-    // Trime removes the last space
+    // Trim removes the last space
     .trim()
     // line break
     .split('\n')
