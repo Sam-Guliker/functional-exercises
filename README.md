@@ -81,3 +81,23 @@ var output = fs.readFileSync('data.txt', 'utf8')
         return costumers
     }, {})
 ```
+## Currying
+Currying:curry: is a good metaphore for the explenation.
+:curry: is adding more mixtures to make a nice curry.
+So is currying!:clap:  
+Currying is adding arguments by itself and returning a new function. `this ` keeps up going.  
+Allright enough theory lets show some code :eyes:
+
+```Javascript 
+let dragon =
+    name =>
+        size =>
+            element =>
+            name + 'is a' +
+            size + ' dragon that breathes' +
+            element + '!'
+            
+let output = dragon('fluffyskins')('tiny')('lightning')
+
+console.log(output)
+```
