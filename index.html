@@ -7,50 +7,6 @@
     <title>Funtional Programming</title>
 </head>
 <body>
-    <script>
-        /* Using higher order functions */
-
-        var animals = [
-            { name: 'Fluffyskins', species: 'Rabbit' },
-            { name: 'Caro',        species: 'Dog' },
-            { name: 'Hamilton',    species: 'Dog' },
-            { name: 'Harold',      species: 'Cat' },
-            { name: 'Ursula',      species: 'Fish' }
-        ]
-
-        var orders = [
-            { amount: 250 },
-            { amount: 400 },
-            { amount: 100 },
-            { amount: 325 }
-        ]
-        
-        /* Filter */
-        // Filter verwacht true of false
-        // var dogs = animals.filter(function(animal){
-        //     return animal.species === 'dogs'
-        // })
-
-        // var names = []
-        // for (let i = 0; i < animals.length; i++) {
-        //     names.push(animals[i].name)
-        // }
-
-        // Map pakt de hele array en gebruikt het.
-        // var names = animals.map(function(animal){
-        //     return ` ${animal.name} is a ${animal.species}`
-        // })
-
-        // var totalAmount = 0
-        // for (let i = 0; i < orders.length; i++) {
-        //     totalAmount += orderis[i].amount
-        // }
-
-        /* Can do alot more of array manipulation */
-        var totalAmount = orders.reduce(function(sum, order){
-            return sum + orders.amount
-        }, 0)
-
-    </script>
+    <source src="index.js" type="javascript">
 </body>
 </html>

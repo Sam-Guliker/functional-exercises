@@ -1,0 +1,21 @@
+{
+  "name": "funfunfunctions",
+  "version": "1.0.0",
+  "description": "Functional Programming lets go",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "functional",
+    "fs",
+    "filter",
+    "reduce",
+    "map"
+  ],
+  "author": "Sam Guliker",
+  "license": "MIT",
+  "dependencies": {
+    "fs-": "^1.0.0"
+  }
+}
