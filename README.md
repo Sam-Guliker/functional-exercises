@@ -105,7 +105,7 @@ console.log(output)
 What is recursion :thinking:  
 recursion is a function that doesn't stop untill it finds itself again.:dizzy_face:  
 Example: We are using it for nesting.  You can do this with loops aswell but what if you nest a 100 times?
-```
+```Javascript
 let categories = [
     { id: 'animals', 'parent': null },
     { id: 'mammals', 'parent': 'animals' },
